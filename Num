@@ -1,0 +1,28 @@
+public class Num
+{
+    private int value;
+
+    //sets up new Num objext, storing intial value
+    public Num(int update)
+    {
+        value = update;
+    }//end num constructor
+
+    //returns stored int value
+    public int getValue()
+    {
+        return value;
+    }//end getValue
+
+    //Sets stored value to new value
+    public void setValue(int update)
+    {
+        value = update;
+    }//end setValue
+
+    //returns stored int as a string
+    public String toString()
+    {
+        return value +"";
+    }//end toString
+}//end class num
